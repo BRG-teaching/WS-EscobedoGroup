@@ -3,7 +3,7 @@ from __future__ import absolute_import
 from __future__ import division
 
 import os
-import scriptcontext as sc
+import scriptcontext as sc  # type: ignore
 
 import compas_rhino
 
