@@ -18,7 +18,7 @@ To run the installation process, simply type:
 
 ```bash
 conda config --add channels conda-forge
-conda create -n workshop COMPAS --yes
+conda create -n workshop python=3.8 COMPAS compas_cgal --yes
 ```
 
 This will create a virtual environment named "workshop" and install COMPAS and all its dependencies in it.
