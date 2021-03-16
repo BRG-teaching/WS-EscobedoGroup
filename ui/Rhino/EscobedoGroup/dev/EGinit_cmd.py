@@ -19,6 +19,7 @@ CWD = HERE or HOME
 def RunCommand(is_interactive):
 
     sc.sticky["EG"] = {}
+    compas_rhino.display_message("EscobedoGroup UI loaded.")
 
 
 # ==============================================================================
